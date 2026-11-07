@@ -128,5 +128,5 @@ O `.htaccess` (Apache 2.4) bloqueia o acesso HTTP a `arq.in`, `includes/`, `cach
 
 ## Desenvolvedores
 
-- Murilo
-- Matheus
+- Murilo Santos (2º DS)
+- Matheus Barros (2º DS)
