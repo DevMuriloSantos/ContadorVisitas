@@ -1,0 +1,41 @@
+/* Personalizações pontuais sobre o Bootstrap. */
+
+.cartao-form {
+    max-width: 460px;
+    margin: 2rem auto;
+}
+
+/* ---- Página inicial ---- */
+
+.hero-tech {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 60%, #2563eb 100%);
+}
+
+.card-noticia {
+    border: 0;
+    overflow: hidden;
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.card-noticia:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 .75rem 1.5rem rgba(15, 23, 42, .15) !important;
+}
+
+/* Todas as imagens com a mesma proporção, sem distorcer */
+.card-noticia-img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    background: #e2e8f0;
+}
+
+.card-noticia .card-title {
+    overflow-wrap: anywhere;
+}
+
+.valor-visitas {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+}

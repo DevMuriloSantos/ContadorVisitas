@@ -1,0 +1,7 @@
+# Dados locais e gerados em execução
+arq.in
+includes/config.php
+cache/noticias.json
+cache/noticias.*.tmp
+cache/noticias.lock
+cache/noticias.falha

@@ -1,0 +1,14 @@
+# Apache 2.4 - sem listagem de diretórios
+Options -Indexes
+
+# Contador de visitas: nunca acessível via HTTP
+<Files "arq.in">
+    Require all denied
+</Files>
+
+# Arquivos internos de versionamento/configuração
+<FilesMatch "^\.(git|ht)">
+    Require all denied
+</FilesMatch>
+
+# includes/, cache/ e sql/ possuem seu próprio .htaccess (Require all denied)
