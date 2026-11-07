@@ -111,3 +111,22 @@ O `.htaccess` (Apache 2.4) bloqueia o acesso HTTP a `arq.in`, `includes/`, `cach
 - **"Não foi possível conectar ao banco":** confira se o MySQL está iniciado e se `includes/config.php` existe e está correto.
 - **Notícias indisponíveis:** verifique a conexão com a internet. Se o antivírus inspeciona o tráfego HTTPS (AVG, Avast, etc.), o PHP precisa confiar no certificado dele; o projeto já consulta o repositório de certificados do Windows (PHP 8.2+).
 - **Detalhes técnicos:** os erros internos vão para `C:\xampp\apache\logs\error.log`; a tela mostra apenas mensagens genéricas.
+
+## Capturas de tela
+
+### Página inicial
+![Página inicial com o cabeçalho "Tecnologia em um só lugar" e os cards de notícias do Tecnoblog](public/pagina_home.png)
+
+### Cadastro
+![Página de cadastro com os campos nome, e-mail, senha e confirmação de senha](public/pagina_cadastro.png)
+
+### Login
+![Página de login com os campos e-mail e senha](public/pagina_login.png)
+
+### Controle de visitas
+![Página de controle de visitas, com o total de logins registrados, exibida para um usuário autenticado](public/pagina_visitas.png)
+
+## Desenvolvedores
+
+- Murilo
+- Matheus
