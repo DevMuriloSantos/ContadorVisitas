@@ -2,6 +2,13 @@
 
 Projeto acadêmico: um portal de **notícias de tecnologia** com cadastro, login e um **contador de logins** gravado no arquivo `arq.in`.
 
+## Desenvolvedores
+
+O projeto foi desenvolvido pelos alunos:
+
+- Murilo Santos (2º DS)
+- Matheus Barros (2º DS)
+
 ## Tecnologias
 
 - PHP 8.2+ (sem frameworks), com extensões `curl`, `SimpleXML`, `mbstring` e `PDO MySQL` (todas já vêm no XAMPP)
@@ -125,8 +132,3 @@ O `.htaccess` (Apache 2.4) bloqueia o acesso HTTP a `arq.in`, `includes/`, `cach
 
 ### Controle de visitas
 ![Página de controle de visitas, com o total de logins registrados, exibida para um usuário autenticado](public/pagina_visitas.png)
-
-## Desenvolvedores
-
-- Murilo Santos (2º DS)
-- Matheus Barros (2º DS)
